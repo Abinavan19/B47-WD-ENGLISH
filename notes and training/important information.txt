@@ -1,0 +1,5 @@
+were the file name will be like
+
+index.htm
+script.js
+ctyle.css

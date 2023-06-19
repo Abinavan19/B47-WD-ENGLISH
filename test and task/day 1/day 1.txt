@@ -1,0 +1,30 @@
+ 1.Difference between HTTP1.1 vs HTTP2:
+
+Introduction :
+The web uses the HTTP protocol.
+The protocol describes the messages exchanged between the web client and web server.
+
+The main differences between HTTP/1.1 and HTTP/2 are:
+
+Connection Limitations: HTTP/1.1 requires separate connections for each request, leading to connection 
+overhead. HTTP/2 allows for multiplexing, enabling concurrent requests and responses over a single 
+connection, reducing connection overhead.
+
+Header Overhead: HTTP/1.1 uses plain text headers that are not compressed, leading to increased bandwidth
+ usage. HTTP/2 introduces header compression, reducing the size of headers and improving performance.
+
+Lack of Server Push: HTTP/1.1 does not support server push, meaning the server cannot proactively send 
+data to the client without a request. HTTP/2 allows for server push, improving the efficiency of data
+ transmission.
+
+Overall, HTTP/2 is a more advanced and efficient protocol compared to HTTP/1.1, with features such as 
+multiplexing, header compression, and server push that contribute to faster web performance and improved 
+user experience.
+
+ 2.Write a blog about objects and its internal representation in Javascript?
+
+objects in JavaScript are internally represented as a hash table-like data structure that stores
+ key-value pairs as properties. Objects can have properties, which store data, and methods, which are
+  functions associated with the object. Objects can also inherit properties and methods from other
+   objects using prototypes, allowing for prototype-based inheritance. Understanding how objects are 
+   internally represented in JavaScript is essential for writing efficient and effective code.

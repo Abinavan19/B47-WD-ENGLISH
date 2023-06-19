@@ -1,0 +1,19 @@
+/* tag selector */
+
+span{
+    color: green;
+}
+
+/* class selector */
+/* it has the prefix of . */
+.random{         /*=>it has to use the class name*/
+    color: coral;
+}
+
+/* id selector */
+/* it has the prefix of # */
+/* it need the unique id name or number */
+#recomended{ /*=>it has to use the id name*/
+    color: gold;
+}
+

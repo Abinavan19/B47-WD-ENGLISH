@@ -1,0 +1,25 @@
+DIFFERENCE BETWEEN DOCUMENET AND WINDOW OBJECT
+
+Window Object:
+
+1. The window object is a global object of the browser
+2. The window object is more powerful that is executed
+   on the javascript
+3.The window object was shown to the executed page
+   of tree structured that means document object model(DOM)tree
+4. The document object is also executed on the
+   DOM tree structure
+5. The document object model doesn't get call the window
+   object
+
+Document Object:
+
+1. The document object is working on the window object
+2. The document object was executed on the HTML
+3. The window object was shown to the executed page
+   of tree structured that means document object model(DOM)tree
+4. The window object was easy to call and taken the
+   document object data's that means any of the html
+   tag was need to the javascript.
+5. The window object was use the function to call the html tag
+   console.log(window.document.getElementsByTagname())

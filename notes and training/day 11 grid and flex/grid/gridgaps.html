@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        .container{
+            width: 540px;
+            border: 10px solid lime;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: aqua;
+
+            /* normal way of giving gap */
+            grid-column-gap: 20px;
+            grid-row-gap: 40px;
+
+            /* its a short hand property */
+
+            /* it apllies to the row first after that it applies to column gap  */
+            /* grid-gap: rgp,cgp; */
+            /* grid-gap: 10px 20px; */
+
+            /* it applies to the row as well as column */
+            /* grid-gap: 30px */
+        }
+        .item{
+            padding: 43px;
+            text-align: center;
+            color: white;
+        }
+        .item1{
+            background-color: blue;
+        }
+        .item2{
+            background-color: green;
+        }
+        .item3{
+            background-color: yellow;
+        }
+        .item4{
+            background-color: red;
+        }
+        .item5{
+            background-color: black;
+        }
+        .item6{
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="item item1">1</div>
+    <div class="item item2">2</div>
+    <div class="item item3">3</div>
+    <div class="item item4">4</div>
+    <div class="item item5">5</div>
+    <div class="item item6">6</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        /* we are styling whole div giving the class name sepratly */
+        .container{
+            width: 540px;
+            border: 10px solid lime;
+            /* we are displaying seprate property using grid */
+            display: grid;
+            /* we are styling the and commenting the grid */
+            grid-gap: 30px;
+            grid-template-columns: auto auto auto;
+            background-color: aqua;
+        }
+        /* we are styling the parent class */
+        .item{
+            padding: 43px;
+            text-align: center;
+            color: white;
+        }
+        /* we are styling the child class it only style the seprate divs*/
+        .item1{
+            background-color: blue;
+        }
+        .item2{
+            background-color: green;
+        }
+        .item3{
+            background-color: yellow;
+        }
+        .item4{
+            background-color: red;
+        }
+        .item5{
+            background-color: black;
+        }
+        .item6{
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <!-- => it has given the for the whole div -->
+    <div class="container">
+        <!-- the first is parent class and another one is child class -->
+    <div class="item item1">1</div>
+    <div class="item item2">2</div>
+    <div class="item item3">3</div>
+    <div class="item item4">4</div>
+    <div class="item item5">5</div>
+    <div class="item item6">6</div>
+    </div>
+</body>
+</html>

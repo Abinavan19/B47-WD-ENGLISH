@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <title>Document</title>
+    <style>
+        .name{
+            border: 1px solid black;
+            font-style: italic;
+        }
+        .dropdown{
+            border: 5px solid red;
+            background-color: blue;
+            font-size: 20px;
+            width: 80px;
+            position: relative;
+        }
+        .dropdownlist{
+            display: none;
+            position: absolute;
+            background-color: blue;
+            left: 60px;
+
+
+        }
+        .dropdown:hover .dropdownlist{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="dropdown">friends<i class="fa-solid fa-caret-down"></i>
+        <div class="dropdownlist">
+            <div class="name">mani</div>
+            <div class="name">bankok</div>
+            <div class="name">sikka</div>
+            <div class="name">siva</div>
+        </div>
+    </div>
+</body>
+</html>

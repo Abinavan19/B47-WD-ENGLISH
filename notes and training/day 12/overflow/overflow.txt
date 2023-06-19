@@ -1,0 +1,8 @@
+types of over flow are
+
+it works in the display property
+
+1.auto
+2.scroll
+3.visible (it is defalt on the the over flow)
+4.hidden

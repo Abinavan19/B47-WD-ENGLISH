@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mediaqueri</title>
+
+    <style>
+        /* it will apperar inside the 400 px */
+        @media screen and (max-width:400px) {
+            div{
+                background-color: brown;
+                font-size: 20px;
+                color: white;
+            }
+            p{
+                background-color: red;
+                color: white;
+            }
+        }
+        /* it will appear after the 800px */
+        @media screen and (min-width: 800px) {
+            div{
+                background-color: blue;
+                font-size: 30px;
+                color: white;
+            }
+            p{
+                background-color: blueviolet;
+                color: white;
+            }
+
+            
+        }
+        /* it will appear between 500px to 600px */
+        @media (min-width:500px) and (max-width: 600px) {
+            div{
+                background-color:black ;
+                font-size: 40pxpx;
+                color: white;
+            }
+            p{
+                background-color: green;
+                color: white;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+         hi this my media queri
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa non illo atque veritatis, minima quisquam architecto odio vero dolor? Esse aliquam debitis at id neque earum maxime minus voluptates assumenda delectus? Accusantium culpa odit fugit, facere numquam minus qui sequi nihil, quasi dignissimos molestiae quis aspernatur nostrum sint ad at neque tempora architecto
+    </p>
+</body>
+</html>
