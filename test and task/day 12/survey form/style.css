@@ -1,0 +1,69 @@
+*{
+    font-size: 15px;
+  }
+  
+  .container{
+    margin: 30px 30px 20px 0 ;
+    width: 100%;
+  }
+  
+  label{
+    margin-bottom: 0;
+    margin-top: 28px;
+  }
+  
+  .firstRow span{
+    color: grey;
+    font-size: smaller;
+    padding-left: 5px;
+  }
+  .lastName{
+    margin-top: 28.27px;
+  }
+  
+  #lname,#fname{
+    width: 200px;
+  }
+  
+  #email{
+    max-width: 432px ;
+    width: 100%;
+  }
+  
+  
+  .table{
+    text-align: center;
+  }
+  
+  
+  table,td,tr,th{
+    border: 0;
+  }
+  
+  .radio{
+    text-align: left;
+  }
+  
+  .star{
+    color: grey;
+    padding: 10px 0;
+  
+  }
+  
+  @media screen and (max-width:530px) {
+    *{
+      font-size: 13px;
+    }
+  
+  }
+  
+  
+  @media screen and (max-width:459px) {
+    .lastName{
+      margin: 0;
+    }
+    #email{
+      max-width: 300px ;
+      width: 100%;
+    }
+  }
